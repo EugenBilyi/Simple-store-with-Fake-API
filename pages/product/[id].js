@@ -102,7 +102,8 @@ export default function ProductCardDetail({ product }) {
                             </p>
                             <button className="bg-[#ff4410] text-white px-16 py-3 hover:bg-[#cc3400] transition-colors flex items-center gap-2 lg:text-lg text-2xl">
                                 PRIDAŤ DO KOŠÍKA
-                                <ShoppingCart size={20} />
+                                <ShoppingCart size={60} className="block lg:hidden" />
+                                <ShoppingCart size={20} className="hidden lg:block" />
                             </button>
                         </div>
                     </div>
