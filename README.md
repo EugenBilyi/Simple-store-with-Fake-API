@@ -35,5 +35,5 @@ http://localhost:3000
 
 ## Output
 
-- Screenshots of the application on both desktop and mobile are included in the /screenshots folder.
-- Source code is available in this GitHub repository.
+- Screenshots of the application for both desktop and mobile views are located in the `/screenshots` folder inside the repository. Each screenshot is clearly named based on the page and device (e.g., `loginForm_mobile.jpg`, `productListPage_PC.jpg`).
+- The source code is available in this GitHub repository and can be run locally following the instructions above.
