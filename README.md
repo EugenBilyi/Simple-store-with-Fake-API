@@ -21,8 +21,8 @@ The objective of this case study is to create a simple web application using Rea
 ## Installation
 
 1. Clone the repository:
- I) git clone https://github.com/EugenBilyi/Simple-store-with-Fake-API.git
- II) cd Simple-store-with-Fake-API
+ - git clone https://github.com/EugenBilyi/Simple-store-with-Fake-API.git
+ - cd Simple-store-with-Fake-API
 
 2. Install dependencies:
 npm install
