@@ -1,40 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# GymBeam Case Study – Simple Store with Fake API
 
-## Getting Started
+## Objective
 
-First, run the development server:
+The objective of this case study is to create a simple web application using React, Next.js, and Tailwind CSS, which displays a list of products and product details for authenticated users. Data is retrieved from the Fake Store API.
 
-```bash
+## Functional Requirements
+
+- The customer can log in to the application (registration is optional).
+- Authenticated users can access the product list and detail pages.
+- The customer can log out of the application.
+- Cart operations are not included.
+
+## Non-Functional Requirements
+
+- The application runs smoothly on major browsers (Safari, Chrome, Firefox, Opera).
+- Consistent UI design aligned with the GymBeam brand.
+- Uses the Fake Store API as a data source.
+- The project can be executed locally.
+
+## Installation
+
+1. Clone the repository:
+git clone https://github.com/EugenBilyi/Simple-store-with-Fake-API.git
+cd Simple-store-with-Fake-API
+
+2. Install dependencies:
+npm install
+
+3. Run the application:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open in browser:
+http://localhost:3000
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Output
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Screenshots of the application on both desktop and mobile are included in the /screenshots folder.
+- Source code is available in this GitHub repository.
